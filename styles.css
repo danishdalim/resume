@@ -1,10 +1,11 @@
 * {
     
-    font-family: 'Roboto', sans-serif;
+    font-family: Helvetica, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 2px solid #2D3E50;
+    background-color: white;
+    /*border: 2px solid #2D3E50;*/
 }
 
 h1 {
@@ -36,45 +37,46 @@ a {
 }
 
 .header {
-    background-color: #2D3E50;
     display: flex;
     justify-content: center;
 }
 
 .intro {
-    color: aliceblue;
-    margin: 30px;
     align-items: center;
     padding: 10px;
+    text-align: center;
 }
 
 .intro h2, .intro p , .intro h1{
-    color: aliceblue;
     margin: 20px;
-    text-align: start;
+    text-align: center;
 }
 
 .link-detail {
     display: flex;
-    background-color: aquamarine;
     gap: 100px;
-    justify-content: center;
-    padding: 20px;
-    border: 2px solid black ;
-    border-radius: 10px;
+    justify-content: space-around;
+    padding: 5px;
     margin: 5px;
+    flex-wrap: inherit;
+    
 }
 
 .title {
-    margin: 20px;
-    margin-left: 75px;
+    margin-left: 50px;
+    border-bottom: 2px black solid;
 }
 
-.education, .project{
+.content {
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.position {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 25px;
-    margin-left: 75px;
 }
 
+.date-location {
+    display: flex;
+    justify-content: space-between;
+}
