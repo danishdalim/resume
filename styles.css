@@ -80,3 +80,9 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.unordered-list li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: disc;
+}
