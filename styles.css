@@ -81,8 +81,39 @@ a {
     justify-content: space-between;
 }
 
+.date-location p {
+    color: rgb(118, 117, 117);
+    font-size: 17px;
+    font: optional;
+    padding: 2px;
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 550;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.company {
+    color: black;
+    font-weight: 545;
+    font-size: 20px;
+}
+
+.work-position {
+    color: black;
+    font-weight: 300;
+}
+
 .unordered-list li {
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 10px;
     list-style-type: disc;
+    font-weight: 400;
+    padding: 2px;
+}
+
+ul{
+    color: black;
 }
