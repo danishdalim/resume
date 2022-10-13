@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 800;
+    font-weight: 400;
     color: black;
 }
 
@@ -62,9 +62,16 @@ a {
     
 }
 
+.objective p{
+    padding: 1px;
+}
+
 .title {
     margin-left: 50px;
     border-bottom: 2px black solid;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-size: 25px;
 }
 
 .content {
@@ -116,4 +123,10 @@ h3 {
 
 ul{
     color: black;
+}
+
+
+.degree p{
+    padding: 2px;
+    font-size: 16px;
 }
